@@ -1,0 +1,7 @@
+<?php
+	include ("Noticia.php");
+		$listarNoticia = new Noticia();
+		$valor = $listarNoticia->buscarTodos();
+
+	print_r($valor);
+?>
